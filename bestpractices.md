@@ -2,6 +2,10 @@
 
 This section of the deployment guide covers recommendations for compute, storage, network and more.
 
+## General
+
+AWS is made up of regions which are comprised of availability zones.  We recommend deploying DSE data centers within regions.  Racks should be distributed across availability zones within that region.
+
 ## Compute
 
 AWS isntance types either use ephemeral instance storage or are EBS backed.
