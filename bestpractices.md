@@ -8,7 +8,7 @@ AWS is made up of regions which are comprised of availability zones.  We recomme
 
 ## Compute
 
-AWS isntance types either use ephemeral instance storage or are EBS backed.
+AWS instance types either use ephemeral instance storage or are EBS backed.
 
 For ephemeral instance storage backed machines we recommend:
 * i2.xlarge
