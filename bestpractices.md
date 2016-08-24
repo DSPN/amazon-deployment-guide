@@ -33,7 +33,11 @@ Traditionally DataStax has recommended SSD based instance storage for AWS deploy
 
 ### EBS
 
-EBS comes in a variety of flavors.  DSE requires lower latency storage.  For this reason the only EBS we recommend is EBS Provisioned IOPS or SSD (io1).  We recommend 1-2 TB of attached storage per instance.  We recommend half the allocated disk be reserved for compaction.
+EBS comes in a variety of flavors.  DSE requires lower latency storage.  For this reason we recommend EBS Provisioned IOPS or SSD (io1) for most use cases.  For analytics heavy workloads General Purpose SSD EBS (gp2) may be sufficient.
+
+We recommend 1-2 TB of attached storage per instance.  We recommend half the allocated disk be reserved for compaction.
+
+More information on ebs is available at http://docs.aws.amazon.com/AWSEC2/latest/UserGuide/EBSVolumeTypes.html
 
 ## Network
 
