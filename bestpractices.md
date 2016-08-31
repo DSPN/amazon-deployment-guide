@@ -6,6 +6,10 @@ This section of the deployment guide covers recommendations for compute, storage
 
 AWS is made up of regions which are comprised of availability zones.  We recommend deploying DSE data centers within regions.  Racks should be distributed across availability zones within that region.
 
+### Snitches
+
+Cassandra propagates the cluster topology using a snitch.  A number of snitches are available, including AWS specific snitches.  We do not recommend those.  Instead we recommend Gossiping Property File Snitch (GPFS) be used.  GPFS is the most widely understood snitch.  It also supports hybrid cloud scenarios.
+
 ## Compute
 
 AWS instance types either use ephemeral instance storage or are EBS backed.
