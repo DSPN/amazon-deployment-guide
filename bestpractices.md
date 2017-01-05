@@ -49,7 +49,9 @@ More information on ebs is available at http://docs.aws.amazon.com/AWSEC2/latest
 
 Public IPs are the most performant method for deploying geographically distributed clusters.  This is because each IP typically has a bandwidth cap associated with it, so adding IPs scales your bandwidth cap linearly.
 
-### VPN
+### Direct Connect
+https://aws.amazon.com/directconnect/
 
-Need to discuss...
+### VPN
 http://docs.aws.amazon.com/AmazonVPC/latest/UserGuide/vpn-connections.html
+
