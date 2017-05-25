@@ -15,9 +15,9 @@ Cassandra propagates the cluster topology using a snitch.  A number of snitches 
 AWS instance types either use ephemeral instance storage or are EBS backed.
 
 For ephemeral instance storage backed machines we recommend:
-* i2.xlarge
-* i2.2xlarge
-* i2.4xlarge
+* i3.xlarge
+* i3.2xlarge
+* i3.4xlarge
 
 For EBS backed machines we recommend:
 * m4.large
