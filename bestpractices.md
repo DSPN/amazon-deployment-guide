@@ -45,9 +45,9 @@ More information on ebs is available at http://docs.aws.amazon.com/AWSEC2/latest
 
 ## Network
 
-### Public IP
+### VPC peering / Public IP
 
-Public IPs are the most performant method for deploying geographically distributed clusters.  This is because each IP typically has a bandwidth cap associated with it, so adding IPs scales your bandwidth cap linearly.
+Public IPs are one method for deploying geographically distributed clusters.  A more secure way is through VPC peering of regions.
 
 ### Direct Connect
 https://aws.amazon.com/directconnect/
